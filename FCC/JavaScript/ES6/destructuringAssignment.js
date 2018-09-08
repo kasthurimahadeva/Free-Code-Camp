@@ -38,3 +38,16 @@ we might want to collect the rest of the elements into a separate array. */
 const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
 console.log(a, b); // 1, 2
 console.log(arr);   // [3, 4, 5, 7]
+
+// Use Destructuring Assignment to Pass an Object as a Function's Parameters
+// In some cases, we can destructure the object in a function argument itself.
+const profileUpdate = (profileData) => {
+    const { name, age, nationality, location } = profileData;
+    // do something with these variables
+}
+//In here, we only need some properties of profileData object. But, we send the whole object.
+
+const profileUpdate = ({ name, age, nationality, location }) => {
+    /* do something with these fields */
+}
+// This removes some extra lines and makes our code look neat.
