@@ -1,6 +1,6 @@
 // Arrow Function
 
-"use strict"
+"use strict";
 const myFunc = () => {
     const myVar = "value";
     return myVar;
