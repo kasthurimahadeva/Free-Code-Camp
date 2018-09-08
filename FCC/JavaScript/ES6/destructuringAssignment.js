@@ -12,3 +12,12 @@ const { x, y, z } = voxel;  // x = 3.6, y = 7.4, z = 6.54
 
 //If instead we want to store the values of voxel.x into a, voxel.y into b, and voxel.z into c, 
 const { x : a, y : b, z : c } = voxel   // a = 3.6, b = 7.4, c = 6.54
+
+// Use Destructuring Assignment to Assign Variables from Nested Objects
+
+const a = {
+    start: { x: 5, y: 6},
+    end: { x: 6, y: -9 }
+  };
+  const { start : { x: startX, y: startY }} = a;
+  console.log(startX, startY);  // 5, 6
