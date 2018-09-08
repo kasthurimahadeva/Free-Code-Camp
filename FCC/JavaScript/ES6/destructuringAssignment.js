@@ -31,3 +31,10 @@ console.log(a, b);  // 1, 2
     //with destructuring by using commas to reach the desired index:
 const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
 console.log(a, b, c);   // 1, 2, 5
+
+//  Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
+/*  In some situations involving array destructuring, 
+we might want to collect the rest of the elements into a separate array. */
+const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+console.log(a, b); // 1, 2
+console.log(arr);   // [3, 4, 5, 7]
