@@ -60,3 +60,9 @@ export default function subtract(x,y) {
     return x - y;
 }
 
+// Import a Default Export
+"use strict";
+import subtract from "math_functions";
+subtract(7,4);
+
+// If the export function is default we do not need to put { }.
