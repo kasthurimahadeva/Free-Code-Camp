@@ -37,3 +37,14 @@ const capitalizeString = (string) => {
 }
 const foo = "bar";
 export { capitalizeString, foo }
+
+//Use * to Import Everything from a File
+// Suppose we have a file that you wish to import all of its contents into the current file
+
+"use strict";
+import * as myCapitalizeMethod from "capitalize_strings";
+
+// use the dot notation to call our imported values.
+import * as myMathModule from "math_functions";
+myMathModule.add(2,3);
+myMathModule.subtract(5,3);
