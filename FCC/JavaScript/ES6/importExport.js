@@ -48,3 +48,15 @@ import * as myCapitalizeMethod from "capitalize_strings";
 import * as myMathModule from "math_functions";
 myMathModule.add(2,3);
 myMathModule.subtract(5,3);
+
+// Create an Export Fallback with export default
+// we will use this syntax if only one value is being exported from a file. 
+// It is also used to create a fallback value for a file or module.
+// we can only have one value be a default export in each module or file. 
+// Additionally, we cannot use export default with var, let, or const.
+
+"use strict";
+export default function subtract(x,y) {
+    return x - y;
+}
+
