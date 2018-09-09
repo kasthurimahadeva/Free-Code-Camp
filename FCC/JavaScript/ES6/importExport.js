@@ -1,3 +1,6 @@
+//import and export
+//import and export are non-browser features.
+
 // Understand the Differences Between import and require
 
 /* In the past, the function require() would be used to import the functions and 
@@ -19,3 +22,18 @@ import { countItems } from "math_array_functions"
 "use strict";
 import { capitalizeString } from "string_functions"
 capitalizeString("hello!");
+
+//Use export to Reuse a Code Block
+const capitalizeString = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+export { capitalizeString }     //How to export functions.
+export const foo = "bar";       //How to export variables.
+export const bar = "foo";
+
+// If we would like to compact all your export statements into one line : 
+const capitalizeString = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+const foo = "bar";
+export { capitalizeString, foo }
