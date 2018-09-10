@@ -75,3 +75,17 @@ Because the a characters are not in a row - there is a b between them. */
 let difficultSpelling = "Mississippi";
 let myRegex = /s+/g; 
 let result = difficultSpelling.match(myRegex);
+
+// Match Characters that Occur Zero or More Times
+// The character to do this is the asterisk or star: *.
+let soccerWord = "gooooooooal!";
+let gPhrase = "gut feeling";
+let oPhrase = "over the moon";
+let goRegex = /go*/;
+soccerWord.match(goRegex); // Returns ["goooooooo"]
+gPhrase.match(goRegex); // Returns ["g"]
+oPhrase.match(goRegex); // Returns null
+
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/; 
+let result = chewieQuote.match(chewieRegex);
