@@ -193,3 +193,15 @@ let result = sample.match(countWhiteSpace);
 let sample = "Whitespace is important in separating words";
 let countNonWhiteSpace = /\S/g; // Change this line
 let result = sample.match(countNonWhiteSpace);
+
+// Specify Upper and Lower Number of Matches
+// to match only the letter a appearing between 3 and 5 times in the string "ah", our regex would be /a{3,5}h/
+let A4 = "aaaah";
+let A2 = "aah";
+let multipleA = /a{3,5}h/;
+multipleA.test(A4); // Returns true
+multipleA.test(A2); // Returns false
+
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6} no/; // Change this line
+let result = ohRegex.test(ohStr);
