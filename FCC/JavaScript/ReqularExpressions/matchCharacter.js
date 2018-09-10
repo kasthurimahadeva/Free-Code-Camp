@@ -57,3 +57,10 @@ let result = quoteSample.match(alphabetRegex);
 let quoteSample = "Blueberry 3.141592653s are delicious.";
 let myRegex = /[h-s2-6]/gi;
 let result = quoteSample.match(myRegex); 
+
+// Match Single Characters Not Specified
+// negated character sets: create a set of characters that we do not want to match
+// place a caret character (^) after the opening bracket and before the characters we do not want to match.
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi; 
+let result = quoteSample.match(myRegex); 
