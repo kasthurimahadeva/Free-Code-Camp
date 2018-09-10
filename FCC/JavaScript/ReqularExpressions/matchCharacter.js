@@ -174,3 +174,17 @@ let result = numString.match(noNumRegex).length;
 let username = "JackOfAllTrades";
 let userCheck = /[a-z].\d*/i; // Change this line
 let result = userCheck.test(username);
+
+// Match Whitespace
+// We can search for whitespace using \s
+// This pattern not only matches whitespace, but also carriage return,tab,form feed,and new line characters. 
+// We can think of it as similar to the character class [ \r\t\f\n\v].
+
+let whiteSpace = "Whitespace. Whitespace everywhere!"
+let spaceRegex = /\s/g;
+whiteSpace.match(spaceRegex);
+// Returns [" ", " "]
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; // Change this line
+let result = sample.match(countWhiteSpace);
