@@ -148,3 +148,9 @@ sentence.match(shortHand); // Returns ["!"]
 let quoteSample = "The five boxing wizards jump quickly.";
 let nonAlphabetRegex = /\W/g; // Change this line
 let result = quoteSample.match(nonAlphabetRegex).length;
+
+// Match All Numbers
+// shortcut to look for digit characters is \d
+let numString = "Your sandwich will be $5.00";
+let numRegex = /\d/g; // Change this line
+let result = numString.match(numRegex).length;
