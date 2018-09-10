@@ -89,3 +89,17 @@ oPhrase.match(goRegex); // Returns null
 let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
 let chewieRegex = /Aa*/; 
 let result = chewieQuote.match(chewieRegex);
+
+// Find Characters with Lazy Matching
+
+// Default greedy:
+/* string: titanic          regex: /t[a-z]*i/
+        return ["titani"] */
+
+// lazy matching
+// regex: /t[a-z]*?i/
+// return ["ti"]
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<h1>?/;
+let result = text.match(myRegex);
