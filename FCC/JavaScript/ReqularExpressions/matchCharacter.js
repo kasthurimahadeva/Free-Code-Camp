@@ -109,3 +109,8 @@ let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 let reCriminals = /C+/; 
 let matchedCriminals = crowd.match(reCriminals);
 console.log(matchedCriminals);
+
+// Match Beginning String Patterns
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
