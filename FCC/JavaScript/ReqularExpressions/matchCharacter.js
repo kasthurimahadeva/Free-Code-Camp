@@ -205,3 +205,16 @@ multipleA.test(A2); // Returns false
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6} no/; // Change this line
 let result = ohRegex.test(ohStr);
+
+// Specify Only the Lower Number of Matches
+let A4 = "haaaah";
+let A2 = "haah";
+let A100 = "h" + "a".repeat(100) + "h";
+let multipleA = /ha{3,}h/;
+multipleA.test(A4); // Returns true
+multipleA.test(A2); // Returns false
+multipleA.test(A100); // Returns true
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);
