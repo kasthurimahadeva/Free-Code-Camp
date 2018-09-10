@@ -218,3 +218,16 @@ multipleA.test(A100); // Returns true
 let haStr = "Hazzzzah";
 let haRegex = /Haz{4,}ah/; // Change this line
 let result = haRegex.test(haStr);
+
+// Specify Exact Number of Matches
+let A4 = "haaaah";
+let A3 = "haaah";
+let A100 = "h" + "a".repeat(100) + "h";
+let multipleHA = /a{3}h/;
+multipleHA.test(A4); // Returns false
+multipleHA.test(A3); // Returns true
+multipleHA.test(A100); // Returns false
+
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // Change this line
+let result = timRegex.test(timStr);
