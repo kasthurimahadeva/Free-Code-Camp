@@ -267,3 +267,17 @@ repeatStr.match(repeatRegex); // Returns ["regex regex", "regex"]
 let repeatNum = "42 42 42";
 let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
 let result = repeatNum.match(reRegex);
+
+// Use Capture Groups to Search and Replace
+let wrongText = "The sky is silver.";
+let silverRegex = /silver/;
+wrongText.replace(silverRegex, "blue");
+// Returns "The sky is blue."
+
+"Code Camp".replace(/(\w+)\s(\w+)/, '$2 $1');
+// Returns "Camp Code"
+
+let huhText = "This sandwich is good.";
+let fixRegex = /good/; // Change this line
+let replaceText = "okey-dokey"; // Change this line
+let result = huhText.replace(fixRegex, replaceText);
