@@ -105,3 +105,12 @@ colorScheme = colorChange(colorScheme, 2, '#332327');
     // todaysWeather equals ['snow', 'sleet'];
     // weatherConditions still equals ['rain', 'snow', 'sleet', 'hail', 'clear']
     ```
+
+### spread operator
+> allow us to easily copy *all* of an array's elements, in order, with a simple and highly readable syntax.
+
+```javascript
+let thisArray = [true, true, undefined, false, null];
+let thatArray = [...thisArray];
+// thatArray equals [true, true, undefined, false, null]
+// thisArray remains unchanged, and is identical to thatArray
