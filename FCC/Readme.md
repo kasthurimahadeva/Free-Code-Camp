@@ -38,9 +38,9 @@ _**Bold and Italic**_
 
 // images
 
-// Format: ![Alt Text](url)
+<!--Format: ![Alt Text](url) -->
 
-[Github Logo](/logo.png)
+[Github Logo]("https://www.google.lk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwid3sC3prfdAhWZF4gKHeqgCL8QjRx6BAgBEAU&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2yYmTWAkftymQBDNYmnCkO&ust=1536903494425471")
 
 <hr>
 
