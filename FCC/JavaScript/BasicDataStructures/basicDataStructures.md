@@ -137,3 +137,24 @@ fruits.indexOf('dates') // returns -1
 fruits.indexOf('oranges') // returns 2
 fruits.indexOf('pears') // returns 1, the first index at which the element exists
 ```
+
+### Iterate array elements
+
+> every(), forEach(), map() : can use to iterate.
+
+> Iterate Through All an Array's Items Using For Loops
+
+```javascript
+function greaterThanTen(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 10) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+
+greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+// returns [12, 14, 80]
+```
