@@ -48,3 +48,32 @@ console.log(innerHtml);
 //Way - 2
 let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
 console.log(innerHtml);
+
+
+// Catch Use of Assignment Operator Instead of Equality Operator
+
+// before
+
+// let x = 7;
+// let y = 9;
+// let result = "to come";
+// if(x = y) {
+//   result = "Equal!";
+// } else {
+//   result = "Not equal!";
+// }
+// console.log(result);
+
+// after
+
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
