@@ -114,3 +114,15 @@ let thisArray = [true, true, undefined, false, null];
 let thatArray = [...thisArray];
 // thatArray equals [true, true, undefined, false, null]
 // thisArray remains unchanged, and is identical to thatArray
+```
+
+<!--- Combine Arrays with the Spread Operator--->
+
+> Combine Arrays with the Spread Operator
+
+```javascript
+let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+
+let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+// thatArray now equals ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']
+```
