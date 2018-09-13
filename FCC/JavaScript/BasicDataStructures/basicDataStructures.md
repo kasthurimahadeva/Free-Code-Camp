@@ -87,3 +87,21 @@ colorScheme = colorChange(colorScheme, 2, '#332327');
 // we have removed '#bb7e8c' and added '#332327' in its place
 // colorScheme now equals ['#878787', '#a08794', '#332327', '#c9b6be', '#d1becf']
 ```
+
+### slice()
+<!--- Copy Array Items Using slice()--->
+> modifying an array, copies, or *extracts*, a given number of elements to a new array.
+
+> leaving the array : upon untouched.
+
+> taken only two parameters.
+
+* first parameter : index at which to begin extraction.
+* second parameter : index at which to stop extraction. (up to, not including the element at this index)
+    ```javascript
+    let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
+
+    let todaysWeather = weatherConditions.slice(1, 3);
+    // todaysWeather equals ['snow', 'sleet'];
+    // weatherConditions still equals ['rain', 'snow', 'sleet', 'hail', 'clear']
+    ```
