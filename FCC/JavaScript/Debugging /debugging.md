@@ -31,3 +31,6 @@ let myRectArea = calcAreaOfRect(2, 3);
 
 // Correct syntax and the program executes, but this gives the wrong answer
 ```
+
+> OBOE - Off By One Errors
+
