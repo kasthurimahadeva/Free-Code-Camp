@@ -33,3 +33,18 @@ console.log(`Net working capital is: ${netWorkingCapital}`);
 let myArray = [1, 2, 3];
 let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
+
+
+// Catch Mixed Usage of Single and Double Quotes
+
+// before
+// let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
+// console.log(innerHtml);
+
+//Way - 1
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+console.log(innerHtml);
+
+//Way - 2
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
+console.log(innerHtml);
