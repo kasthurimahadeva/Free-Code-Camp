@@ -43,3 +43,29 @@ function popShift(arr) {
   
 // do not change code below this line
 console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+
+// Remove Items Using splice()
+let array = ['today', 'was', 'not', 'so', 'great'];
+
+array.splice(2, 2);
+// remove 2 elements beginning with the 3rd element
+// array now equals ['today', 'was', 'great']b 
+
+let array = ['I', 'am', 'feeling', 'really', 'happy'];
+let newArray = array.splice(3, 2);
+// newArray equals ['really', 'happy']
+
+/* We've defined a function, sumOfTen, which takes an array as an argument 
+and returns the sum of that array's elements. Modify the function, using splice(), 
+so that it returns a value of 10.*/
+
+function sumOfTen(arr) {
+    // change code below this line
+    arr.splice(1, 2);
+    // change code above this line
+    return arr.reduce((a, b) => a + b);
+  }
+  
+  // do not change code below this line
+  console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
