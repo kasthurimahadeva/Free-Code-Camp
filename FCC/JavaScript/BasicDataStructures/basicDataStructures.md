@@ -126,3 +126,14 @@ let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 // thatArray now equals ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']
 ```
+
+### indexOf()
+> Check For The Presence of an Element With indexOf()
+
+```javascript
+let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+
+fruits.indexOf('dates') // returns -1
+fruits.indexOf('oranges') // returns 2
+fruits.indexOf('pears') // returns 1, the first index at which the element exists
+```
