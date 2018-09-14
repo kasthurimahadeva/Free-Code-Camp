@@ -158,3 +158,27 @@ function greaterThanTen(arr) {
 greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
 // returns [12, 14, 80]
 ```
+
+
+<hr>
+
+## Object
+
+> Key - Value Pairs
+
+```javascript
+let FCC_User = {
+  username: 'awesome_coder',
+  followers: 572,
+  points: 1741,
+  completedProjects: 15
+};
+
+// way - 1
+let userData = FCC_User.followers;
+// userData equals 572
+
+// way - 2
+let userData = FCC_User['followers']
+// userData equals 572
+```
