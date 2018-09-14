@@ -182,3 +182,11 @@ let userData = FCC_User.followers;
 let userData = FCC_User['followers']
 // userData equals 572
 ```
+
+> Check if an Object has a Property
+
+```javascript
+users.hasOwnProperty('Alan');
+'Alan' in users;
+// both return true
+```
