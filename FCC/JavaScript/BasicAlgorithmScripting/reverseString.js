@@ -1,3 +1,5 @@
+// My idea
+
 function reverseString(str) {
     let arr = Array.from(str);
     str = "";
@@ -8,3 +10,10 @@ function reverseString(str) {
   }
   
   reverseString("hello");
+
+// Short way
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+  
+reverseString("hello");
