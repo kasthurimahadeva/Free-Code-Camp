@@ -190,3 +190,21 @@ users.hasOwnProperty('Alan');
 'Alan' in users;
 // both return true
 ```
+
+
+> Iterate Through the Keys of an Object with a for...in Statement
+
+```javascript
+for (let user in users) {
+  console.log(user);
+};
+
+// logs:
+Alan
+Jeff
+Sarah
+Ryan
+```
+
+> Objects do not maintain an ordering to stored keys like arrays do
+
