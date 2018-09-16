@@ -99,3 +99,10 @@ console.log(text.substr(2,3)); // => "zil"
 
 > **This method has been added to the ECMAScript 2015 specification and may not be available in all JavaScript implementations yet.**
 
+<hr>
+
+## Polyfill
+
+> A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.
+
+<hr>
