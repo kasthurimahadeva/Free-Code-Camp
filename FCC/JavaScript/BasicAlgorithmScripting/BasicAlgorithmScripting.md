@@ -106,3 +106,24 @@ console.log(text.substr(2,3)); // => "zil"
 > A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.
 
 <hr>
+
+## Array.every()
+
+### Syntax
+
+> arr.every(callback[, thisArg])
+
+Callback function is taaking three arguments.
+1. currentValue(required) : The current element being processed in the array.
+1. index(optional) : The index of the current element being processed in the array.
+1. array (optional) : The array every was called upon.
+
+### Example
+
+```javascript
+function isBigEnough(element, index, array) {
+  return element >= 10;
+}
+[12, 5, 8, 130, 44].every(isBigEnough);   // false
+[12, 54, 18, 130, 44].every(isBigEnough); // true
+```
