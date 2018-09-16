@@ -76,3 +76,23 @@ var text = 'Mozilla';
 console.log(text.substring(2,5)); // => "zil"
 console.log(text.substr(2,3)); // => "zil"
 ```
+
+<hr>
+
+## String.repeat()
+
+### Syntax
+> str.repeat(count);
+
+### Example
+```javascript
+'abc'.repeat(-1);   // RangeError
+'abc'.repeat(0);    // ''
+'abc'.repeat(1);    // 'abc'
+'abc'.repeat(2);    // 'abcabc'
+'abc'.repeat(3.5);  // 'abcabcabc' (count will be converted to integer)
+'abc'.repeat(1/0);  // RangeError
+
+({ toString: () => 'abc', repeat: String.prototype.repeat }).repeat(2);
+// 'abcabc' (repeat() is a generic method)
+```
