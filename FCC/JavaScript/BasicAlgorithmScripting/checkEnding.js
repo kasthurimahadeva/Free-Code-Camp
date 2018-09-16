@@ -14,3 +14,10 @@ function confirmEnding(str, target) {
 }
   
 confirmEnding("Bastian", "n");
+
+// short way
+function confirmEnding(str, target) {
+  return str.substr(-target.length) === target;
+}
+
+confirmEnding("Bastian", "n");
