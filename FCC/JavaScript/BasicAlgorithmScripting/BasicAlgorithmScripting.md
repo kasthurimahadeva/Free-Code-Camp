@@ -96,3 +96,6 @@ console.log(text.substr(2,3)); // => "zil"
 ({ toString: () => 'abc', repeat: String.prototype.repeat }).repeat(2);
 // 'abcabc' (repeat() is a generic method)
 ```
+
+> **This method has been added to the ECMAScript 2015 specification and may not be available in all JavaScript implementations yet.**
+
