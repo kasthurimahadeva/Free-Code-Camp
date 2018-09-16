@@ -14,3 +14,33 @@ function repeatStringNumTimes(str, num) {
 }
   
 repeatStringNumTimes("abc", 3);
+
+// Basic code solution
+function repeatStringNumTimes(str, num) {
+    var accumulatedStr = '';
+  
+    while (num > 0) {
+      accumulatedStr += str;
+      num--;
+    }
+  
+    return accumulatedStr;
+}
+
+// Intermediate Code Solution
+function repeatStringNumTimes(str, num) {
+    if(num < 0)
+      return "";
+    if(num === 1)
+      return str;
+    else
+      return str + repeatStringNumTimes(str, num - 1);
+}
+
+// Advanced Code Solution
+function repeatStringNumTimes(str, num) {
+    return num > 0 ? str.repeat(num) : '';
+  }
+  
+repeatStringNumTimes("abc", 3);
+  
