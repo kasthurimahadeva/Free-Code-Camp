@@ -77,3 +77,16 @@ hound.color = "black";
 console.log(hound.color);
 // black
 ```
+
+
+### Extend Constructors to Receive Arguments
+
+```javascript
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+
+let terrier = new Dog("Terrier", "brown");
+```
