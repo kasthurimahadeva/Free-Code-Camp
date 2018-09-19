@@ -256,3 +256,67 @@ Object.prototype.isPrototypeOf(Dog.prototype);
 
 * In this prototype chain, Dog is the supertype for beagle, while beagle is the subtype. Object is a supertype for both Dog and beagle.
 * Object is a supertype for all objects in JavaScript. Therefore, any object can use the hasOwnProperty method.
+
+
+### Use Inheritance So You Don't Repeat Yourself
+```javascript
+function Cat(name) {
+  this.name = name; 
+}
+
+Cat.prototype = {
+  constructor: Cat, 
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Bear(name) {
+  this.name = name; 
+}
+
+Bear.prototype = {
+  constructor: Bear, 
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  
+};
+```
+
+> Above code, we write same eat method to Cat and Bear.
+
+> If we use inheritance, we can stop this kind of repeating things.
+
+```javascript
+function Cat(name) {
+  this.name = name; 
+}
+
+Cat.prototype = {
+  constructor: Cat
+};
+
+function Bear(name) {
+  this.name = name; 
+}
+
+Bear.prototype = {
+  constructor: Bear
+};
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function(){
+    console.log("nom nom nom");
+  }
+};
+```
