@@ -90,3 +90,17 @@ function Dog(name, color) {
 
 let terrier = new Dog("Terrier", "brown");
 ```
+
+
+### Verify an Object's Constructor with instanceof
+```javascript
+/* jshint expr: true */
+
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+
+// Add your code below this line
+let myHouse = new House(4);
+myHouse instanceof House;
+```
