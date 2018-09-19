@@ -237,3 +237,22 @@ let beagle = new Dog("Snoopy");
 
 Dog.prototype.isPrototypeOf(beagle);
 ```
+
+
+### Understand the Prototype Chain
+
+```javascript
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // => true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
+```
+
+* In this prototype chain, Dog is the supertype for beagle, while beagle is the subtype. Object is a supertype for both Dog and beagle.
+* Object is a supertype for all objects in JavaScript. Therefore, any object can use the hasOwnProperty method.
