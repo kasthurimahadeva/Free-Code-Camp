@@ -415,3 +415,36 @@ let beagle = new Dog();
 beagle.eat(); // Should print "nom nom nom"
 beagle.bark(); // Should print "Woof!"
 ```
+
+
+
+### Override Inherited Methods
+
+1. penguin => Is fly() defined here? No.
+
+1. Penguin => Is fly() defined here? => Yes. Execute it and stop searching.
+
+1. Bird => fly() is also defined, but JavaScript stopped searching before reaching this level.
+
+1. Object => JavaScript stopped searching before reaching this level
+
+```javascript
+function Bird() { }
+
+Bird.prototype.fly = function() { return "I am flying!"; };
+
+function Penguin() { }
+Penguin.prototype = Object.create(Bird.prototype);
+Penguin.prototype.constructor = Penguin;
+
+// Add your code below this line
+Penguin.prototype.fly = function(){
+    return "Alas, this is a flightless bird.";
+};
+
+
+// Add your code above this line
+
+let penguin = new Penguin();
+console.log(penguin.fly());
+```
