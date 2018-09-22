@@ -98,3 +98,7 @@ console.log(
   tea4BlackTeamFCC
 );
 ```
+
+<hr>
+
+> **Note : Functional programming is all about creating and using non-mutating functions.**
