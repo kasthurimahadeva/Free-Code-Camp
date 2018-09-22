@@ -102,3 +102,54 @@ console.log(
 <hr>
 
 > **Note : Functional programming is all about creating and using non-mutating functions.**
+
+<hr>
+
+### Introduction to Currying and Partial Application
+
+```javascript
+//Un-curried function
+function unCurried(x, y) {
+  return x + y;
+}
+
+//Curried function
+function curried(x) {
+  return function(y) {
+    return x + y;
+  }
+}
+curried(1)(2) // Returns 3
+```
+
+```javascript
+// Call a curried function in parts:
+var funcForY = curried(1);
+console.log(funcForY(2)); // Prints 3
+```
+
+```javascript
+//Impartial function
+function impartial(x, y, z) {
+  return x + y + z;
+}
+var partialFn = impartial.bind(this, 1, 2);
+partialFn(10); // Returns 13
+```
+
+> Fill in the body of the add function so it uses currying to add parameters x, y, and z.
+
+
+```javascript
+function add(x) {
+  // Add your code below this line
+  return function(y){
+    return function(z){
+      return x + y + z;
+    }
+  }
+  
+  // Add your code above this line
+}
+add(10)(20)(30);
+```
