@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html" afterDir="false" />
-    </list>
+    <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +28,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="5" />
           <entry key="js" value="20" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="158" />
+          <entry key="html" value="190" />
           <entry key="js" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="158" />
+          <entry key="HTML" value="190" />
           <entry key="JavaScript" value="240" />
         </counts>
       </usages-collector>
@@ -59,10 +57,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -100,6 +107,7 @@
         <option value="$PROJECT_DIR$/JavaScript/JavaScript Algorithms and Data Structures Projects/CashRegister.js" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/catApp.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html" />
+        <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html" />
       </list>
     </option>
   </component>
@@ -152,7 +160,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538487093781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538490214620" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,7 +210,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27699000" />
+    <option name="totallyTimeSpent" value="28432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -371,8 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
