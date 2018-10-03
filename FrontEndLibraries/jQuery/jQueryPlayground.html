@@ -7,14 +7,10 @@
     <!-- Learn How Script Tags and Document Ready Work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
         $(document).ready(function() {
-            // Target HTML Elements with Selectors Using jQuery
-            $("button").addClass("animated bounce");
-
-            // Target Elements by Class Using jQuery
-            $(".well").addClass("animated shake");
-
-            // Target Elements by id Using jQuery
-            $("#target3").addClass("animated fadeOut");
+            //  Target the Same Element with Multiple jQuery Selectors
+            $("button").addClass("animated");
+            $(".btn").addClass("shake");
+            $("#target1").addClass("btn-primary");
         });
     </script>
 
