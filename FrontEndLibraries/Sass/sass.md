@@ -18,3 +18,38 @@ h1 {
   color: $headings-color;
 }
 ```
+
+
+## Nest CSS with Sass
+
+> In CSS,
+```css
+nav {
+  background-color: red;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+```
+
+> In SASS,
+
+```sass
+nav {
+  background-color: red;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+```
