@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,27 +32,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="8" />
+          <entry key="html" value="10" />
           <entry key="js" value="20" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
+          <entry key="HTML" value="10" />
           <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="494" />
+          <entry key="html" value="591" />
           <entry key="js" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="494" />
+          <entry key="HTML" value="591" />
           <entry key="JavaScript" value="240" />
         </counts>
       </usages-collector>
@@ -59,20 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="213" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="213" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -156,7 +148,7 @@
               <item name="free-code-camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="free-code-camp" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEndLibraries" type="462c0819:PsiDirectoryNode" />
-              <item name="BootStrap" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="free-code-camp" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +166,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538554797224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538555189262" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -220,12 +212,12 @@
       <workItem from="1538282086273" duration="1335000" />
       <workItem from="1538416734675" duration="2359000" />
       <workItem from="1538449525927" duration="1452000" />
-      <workItem from="1538543291033" duration="4767000" />
+      <workItem from="1538543291033" duration="5159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35817000" />
+    <option name="totallyTimeSpent" value="36209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -408,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="330">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
         </state>
       </provider>
     </entry>
