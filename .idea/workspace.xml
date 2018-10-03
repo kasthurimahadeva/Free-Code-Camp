@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,43 +14,44 @@
     <session id="1977241704">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="6" />
+          <entry key="html" value="7" />
           <entry key="js" value="20" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="7" />
           <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="337" />
+          <entry key="html" value="361" />
           <entry key="js" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="337" />
+          <entry key="HTML" value="361" />
           <entry key="JavaScript" value="240" />
         </counts>
       </usages-collector>
@@ -58,20 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html">
+        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="435">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -110,6 +102,7 @@
         <option value="$PROJECT_DIR$/FrontEndLibraries/catApp.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html" />
+        <option value="$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html" />
       </list>
     </option>
   </component>
@@ -144,12 +137,6 @@
               <item name="free-code-camp" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEndLibraries" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="free-code-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free-code-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEndLibraries" type="462c0819:PsiDirectoryNode" />
-              <item name="BootStrap" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,7 +149,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538492233211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538546824505" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,17 +195,18 @@
       <workItem from="1538282086273" duration="1335000" />
       <workItem from="1538416734675" duration="2359000" />
       <workItem from="1538449525927" duration="1452000" />
+      <workItem from="1538543291033" duration="1032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30450000" />
+    <option name="totallyTimeSpent" value="32082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2931818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2977273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,17 +367,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html">
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="465">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
