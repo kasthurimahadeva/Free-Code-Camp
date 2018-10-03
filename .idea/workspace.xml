@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="" />
+    <list default="true" id="5f47264f-9cfb-40b4-955b-a05efeb3d00c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,30 +31,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="10" />
+          <entry key="html" value="11" />
           <entry key="js" value="20" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="11" />
           <entry key="JavaScript" value="20" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="641" />
+          <entry key="html" value="666" />
           <entry key="js" value="240" />
-          <entry key="md" value="58" />
+          <entry key="md" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="641" />
+          <entry key="HTML" value="666" />
           <entry key="JavaScript" value="240" />
-          <entry key="Markdown" value="58" />
+          <entry key="Markdown" value="68" />
         </counts>
       </usages-collector>
     </session>
@@ -60,11 +62,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sassVariables.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,6 +117,8 @@
         <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/catApp.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/BootStrap/jQueryPlayground.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/jQuery/jQueryPlayground.html" />
+        <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/sass.html" />
+        <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/sassVariables.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md" />
       </list>
     </option>
@@ -149,6 +162,12 @@
             </path>
             <path>
               <item name="free-code-camp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free-code-camp" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEndLibraries" type="462c0819:PsiDirectoryNode" />
+              <item name="Sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free-code-camp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -163,7 +182,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538557226722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538558180547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,12 +228,12 @@
       <workItem from="1538282086273" duration="1335000" />
       <workItem from="1538416734675" duration="2359000" />
       <workItem from="1538449525927" duration="1452000" />
-      <workItem from="1538543291033" duration="6891000" />
+      <workItem from="1538543291033" duration="7845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37941000" />
+    <option name="totallyTimeSpent" value="38895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -405,10 +424,17 @@
     <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="33" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sassVariables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
