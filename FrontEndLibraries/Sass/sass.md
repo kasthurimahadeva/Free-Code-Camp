@@ -121,3 +121,35 @@ div {
 
 <div id="box"></div>
 ```
+
+
+## Use @for to Create a Sass Loop
+
+> @for is used in two ways:
+
+1. start through end : includes the end number.
+1. start to end : excludes the end number.
+
+```sass
+@for $i from 1 through 12 {
+  .col-#{$i} { width: 100%/12 * $i; }
+}
+```
+
+> The #{$i} part is the syntax to combine a variable (i) with text to make a string. When the Sass file is converted to CSS, it looks like this:
+
+```sass
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+...
+
+.col-12 {
+  width: 100%;
+}
+```
