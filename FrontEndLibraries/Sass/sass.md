@@ -209,3 +209,21 @@ $x: 1;
 **Note** : the underscore is not needed in the import statement.
 
 
+## Extend One Set of CSS Styles to Another Element
+
+```sass
+.panel{
+  background-color: red;
+  height: 70px;
+  border: 2px solid green;
+}
+```
+
+
+```sass
+.big-panel{
+  @extend .panel;
+  width: 150px;
+  font-size: 2em;
+}
+```

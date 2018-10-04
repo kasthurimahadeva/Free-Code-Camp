@@ -35,44 +35,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="16" />
+          <entry key="html" value="17" />
           <entry key="js" value="20" />
           <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="16" />
+          <entry key="HTML" value="17" />
           <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="717" />
+          <entry key="html" value="724" />
           <entry key="js" value="240" />
-          <entry key="md" value="358" />
+          <entry key="md" value="382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="717" />
+          <entry key="HTML" value="724" />
           <entry key="JavaScript" value="240" />
-          <entry key="Markdown" value="358" />
+          <entry key="Markdown" value="382" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="474">
-                <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
+              <first_editor relative-caret-position="504">
+                <caret line="227" column="1" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/extend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -165,6 +174,7 @@
         <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/map.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/while.html" />
         <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md" />
+        <option value="$PROJECT_DIR$/FrontEndLibraries/Sass/extend.html" />
       </list>
     </option>
   </component>
@@ -229,7 +239,7 @@
     <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538641736343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538644073629" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -279,12 +289,12 @@
       <workItem from="1538567213516" duration="26000" />
       <workItem from="1538625243050" duration="318000" />
       <workItem from="1538638032959" duration="216000" />
-      <workItem from="1538638279096" duration="3450000" />
+      <workItem from="1538638279096" duration="4176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43922000" />
+    <option name="totallyTimeSpent" value="44648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1366" height="768" extended-state="6" />
@@ -517,10 +527,17 @@
     <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/sass.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="474">
-            <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
+          <first_editor relative-caret-position="504">
+            <caret line="227" column="1" selection-start-line="227" selection-start-column="1" selection-end-line="227" selection-end-column="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEndLibraries/Sass/extend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
