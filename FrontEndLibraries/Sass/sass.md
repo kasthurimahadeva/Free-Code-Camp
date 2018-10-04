@@ -191,3 +191,21 @@ $x: 1;
   $x: $x + 1;
 }
 ```
+
+
+## Split Your Styles into Smaller Chunks with Partial
+
+* Partials in Sass are separate files that hold segments of CSS code. 
+* Names for partials start with the underscore (_) character.
+* Sass files end with the .scss file extension.
+
+> Write an @import statement to import a partial named _variables.scss into the main.scss file.
+
+```sass
+// The main.scss file
+@import 'variables'
+```
+
+**Note** : the underscore is not needed in the import statement.
+
+
