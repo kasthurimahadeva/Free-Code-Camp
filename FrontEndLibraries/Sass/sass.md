@@ -180,3 +180,14 @@ $colors: (color1: blue, color2: red, color3: green);
   color: green;
 }
 ```
+
+
+## Apply a Style Until a Condition is Met with @while
+
+```sass
+$x: 1;
+@while $x < 13 {
+  .col-#{$x} { width: 100%/12 * $x;}
+  $x: $x + 1;
+}
+```
