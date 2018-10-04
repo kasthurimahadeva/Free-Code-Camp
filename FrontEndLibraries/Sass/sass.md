@@ -153,3 +153,30 @@ div {
   width: 100%;
 }
 ```
+
+
+## Use @each to Map Over Items in a List
+
+```sass
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+```
+
+> Note that the $key variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have color1, color2... in it.
+
+```sass
+.blue-text {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+```
