@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixin</title>
+    <style type='text/sass'>
+        @mixin border-radius($radius){
+            -webkit-border-radius: $radius;
+            -moz-border-radius: $radius;
+            -ms-border-radius: $radius;
+            border-radius: $radius;
+        }
+
+            #awesome {
+                width: 150px;
+                height: 150px;
+                background-color: green;
+
+        }
+    </style>
+</head>
+<body>
+<div id="awesome">
+    @include border-radius(15px);
+</div>
+</body>
+</html>

@@ -53,3 +53,35 @@ nav {
   }
 }
 ```
+
+## Create Reusable CSS with Mixins
+
+> In CSS,
+
+```css
+div {
+  -webkit-box-shadow: 0px 0px 4px #fff;
+  -moz-box-shadow: 0px 0px 4px #fff;
+  -ms-box-shadow: 0px 0px 4px #fff;
+  box-shadow: 0px 0px 4px #fff;
+}
+```
+
+> In SASS,
+
+```sass
+@mixin box-shadow($x, $y, $blur, $c){
+  -webkit-box-shadow: $x, $y, $blur, $c;
+  -moz-box-shadow: $x, $y, $blur, $c;
+  -ms-box-shadow: $x, $y, $blur, $c;
+  box-shadow: $x, $y, $blur, $c;
+}
+```
+
+> A mixin is called with the @include directive:
+
+```sass
+div {
+  @include box-shadow(0px, 0px, 4px, #fff);
+}
+```
