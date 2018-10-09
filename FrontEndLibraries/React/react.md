@@ -24,3 +24,19 @@
       );
     };
     ```
+    
+1. With the ES6 ```class``` syntax.
+    
+    ```react
+    class Kitten extends React.Component {
+      constructor(props) {
+        super(props);
+      }
+    
+      render() {
+        return (
+          <h1>Hi</h1>
+        );
+      }
+    }
+    ```
