@@ -41,7 +41,7 @@
     ReactDOM.render(JSX, document.getElementById("root"));
 
     // Render HTML Elements to the DOM
-    const JSX = (
+     JSX = (
         <div id = "challenge-node">
             <h1>Hello World</h1>
             <p>Lets render this to the DOM</p>
@@ -49,6 +49,15 @@
     );
     // change code below this line
     ReactDOM.render(JSX, document.getElementById('challenge-node'));
+
+    // Define an HTML Class in JSX
+    JSX = (
+        <div className = "myDiv">
+            <h1>Add a class to this div</h1>
+        </div>
+    );
+
+    ReactDOM.render(JSX, document.getElementsByClassName("myDiv"));
 </script>
 </body>
 </html>
