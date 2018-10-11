@@ -52,14 +52,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1225" />
+          <entry key="html" value="1241" />
           <entry key="js" value="240" />
           <entry key="md" value="618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1225" />
+          <entry key="HTML" value="1241" />
           <entry key="JavaScript" value="240" />
           <entry key="Markdown" value="618" />
         </counts>
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEndLibraries/React/react.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="300" column="29" selection-start-line="300" selection-start-column="29" selection-end-line="300" selection-end-column="29" />
+            <state relative-caret-position="174">
+              <caret line="339" column="24" selection-start-line="339" selection-start-column="24" selection-end-line="339" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -250,12 +250,12 @@
       <workItem from="1539064827713" duration="11348000" />
       <workItem from="1539110257799" duration="836000" />
       <workItem from="1539149709016" duration="3037000" />
-      <workItem from="1539212207064" duration="1349000" />
+      <workItem from="1539212207064" duration="2036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61706000" />
+    <option name="totallyTimeSpent" value="62393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -504,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEndLibraries/React/react.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="300" column="29" selection-start-line="300" selection-start-column="29" selection-end-line="300" selection-end-column="29" />
+        <state relative-caret-position="174">
+          <caret line="339" column="24" selection-start-line="339" selection-start-column="24" selection-end-line="339" selection-end-column="24" />
         </state>
       </provider>
     </entry>
